@@ -1,0 +1,41 @@
+$primary: #3e32a8;
+$secondary: #552ea3;
+$grey: #242424;
+$dark: #1A1A1A;
+$light: #E1E1E1;
+$sub: #989a9c;
+$gloss: rgb(12, 12, 12, .3);
+$accent: #38cf65;
+
+%tag-esque {
+    font-size: .7em;
+    opacity: .6;
+    line-height: 0; /* prevent sparkle effect */
+    font-weight: 650;
+    display: flex;
+    align-items: center;
+
+    p, a {
+        min-height: 19px; /* account for line-height */
+        padding: 0 3px; /* ^^ */
+        background: $gloss;
+        // background: rgb(7,7,7, .9);
+        // color: $light;
+        border-radius: 4.8px;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+}
+
+%tag-inline {
+    p, a {
+        min-height: 19px; /* account for line-height */
+        padding: 0 3px; /* ^^ */
+        background: $gloss;
+        // background: rgb(7,7,7, .9);
+        // color: $light;
+        border-radius: 4.8px;
+        gap: 4px;
+    }
+}
