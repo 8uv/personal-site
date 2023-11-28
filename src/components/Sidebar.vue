@@ -50,6 +50,7 @@ aside {
         display: flex;
         justify-content: center;
         padding: 16px 0;
+        margin: 0 15px;
 
         img {
             width: 128px;

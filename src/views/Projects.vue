@@ -24,6 +24,11 @@ onMounted(() => {
                         <img src="https://opengraph.githubassets.com/8120f0c7aa70cb7d9ebd98295524dbe26c7896c7f3a39e4c0de99a1e05964f25/8uv/roblox-chat-color-js" alt="8uv/roblox-userscripts">
                     </a>
                 </div>
+                <div class="card">
+                    <a href="https://github.com/8uv/personal-site" target="_blank">
+                        <img src="https://opengraph.githubassets.com/8120f0c7aa70cb7d9ebd98295524dbe26c7896c7f3a39e4c0de99a1e05964f25/8uv/personal-site" alt="8uv/roblox-userscripts">
+                    </a>
+                </div>
             </div>
 
             <div class="hosts">
@@ -45,10 +50,11 @@ a {
 }
 
 .projects-page {
-    .about {
-        min-width: 60%;
-        max-width: 75%;
 
+    .about {
+        p {
+            max-width: 85%;
+        }
         .projects {
             margin: 15px 0;
             display: flex;
@@ -63,7 +69,7 @@ a {
                         max-width: 400px;
 
                         @media (max-width: 1000px) {
-                            max-width: 256px;
+                            max-width: 220px;
                         }
                     }
                 }
