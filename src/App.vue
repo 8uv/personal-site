@@ -16,11 +16,7 @@ window.addEventListener("load", () => {
 </template>
 
 <style lang="scss">
-$primary: #3e32a8;
-$secondary: #552ea3;
-$grey: #64748b;
-$dark: #1A1A1A;
-$light: #E1E1E1;
+@use "assets/_vars.scss" as *;
 
 * {
   margin: 0;
@@ -31,6 +27,11 @@ $light: #E1E1E1;
 
 body {
   background: $light;
+  transition: background .6s;
+
+  @media (max-width: 700px) {
+    background: #fefefe !important;
+  }
 }
 
 button {

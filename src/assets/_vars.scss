@@ -4,7 +4,7 @@ $grey: #242424;
 $dark: #1A1A1A;
 $light: #E1E1E1;
 $sub: #989a9c;
-$gloss: rgb(12, 12, 12, .3);
+$gloss: rgba(12, 12, 12, .3);
 $accent: #38cf65;
 
 %tag-esque {
@@ -25,6 +25,11 @@ $accent: #38cf65;
         display: flex;
         align-items: center;
         gap: 4px;
+        transition: background .3s;
+
+        @media (max-width: 700px) {
+            background: rgba(12, 12, 12, .15);
+        }
     }
 }
 

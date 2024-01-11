@@ -69,6 +69,7 @@
     z-index: -1;
     font-family: monospace;
     opacity: .6;
+    transition: opacity .15s;
 
     position: fixed;
     bottom: 0;

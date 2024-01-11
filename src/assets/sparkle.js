@@ -5,6 +5,7 @@ function sparkle(el) {
     
         const sparkle = document.createElement("img")
         sparkle.className = "sparkle"
+        sparkle.setAttribute("alt", "sparkle icon")
         if(Math.random() > 0.5) {
             sparkle.src = "./images/sparkles1.svg"
         } else {
