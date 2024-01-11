@@ -6,11 +6,11 @@
 
         <div class="menu">
             <router-link to="/" class="button" @click="twemoji.parse(document.body)">
-                <img src="../assets/icons/home.svg" alt="Home" class="menu-icon">
+                <img src="../assets/icons/home.svg" alt="house icon" class="menu-icon">
 				<span class="text">Home</span>
 			</router-link>
 			<router-link to="/projects" class="button" @click="twemoji.parse(document.body)">
-                <img src="../assets/icons/bookmark.svg" alt="Home" class="menu-icon">
+                <img src="../assets/icons/bookmark.svg" alt="bookmark icon" class="menu-icon">
 				<span class="text">Projects</span>
 			</router-link>
         </div>
